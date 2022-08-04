@@ -7,6 +7,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    font-family: 'Open Sans';font-size: 22px;
+  }
+  .photo {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
   }
   
 </style>
@@ -17,7 +29,9 @@
 
     <div class="grid-contacts">
         <h1>Contacts</h1>
-
+          <div class="photo">
+            <img class="photo" src="https://a.ppy.sh/9448341?1651531511.jpeg" alt="Avatar">
+          </div>
 
     </div>
 
@@ -30,7 +44,7 @@
         <h1>Skills</h1>
           <p><b>
             C++, PHP, CSS, BootStrap, SQL.<br>
-            I have knowledge on how to use linux CLI<br>
+            I have knowledge on how to use linux CLI <br>  
             <p style="font-size:xx-small";>(I am willing to learn anything new if needed)</p>
           </b></p>
         <h1>Certification and degrees</h1>
@@ -38,6 +52,7 @@
             High school diploma <br>
             NDG Linux Unhatched
           </b></p>
+
     </div>
   
 </div>
