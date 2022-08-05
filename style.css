@@ -1,35 +1,34 @@
-.grid-container {
+  .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-    font-family: 'Open Sans';font-size: 22px;
-  }
-  .photo {
-  border-radius: 50%;
-  display: block;
-  max-width: 100%;
-  height: auto;
-  image-rendering: optimizeQuality;
-  image-rendering: crisp-edges;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
   }
   
-  .smooth {
-  scroll-behavior: smooth;
-}
+  .photo {
+  border-radius: 50%;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  }
+  
 
 
-body {
+  body {
     background-color: #17171f;
     color: #7A7C80;
-}
+    font-family: 'Open Sans';font-size: 22px;
+    scroll-behavior: smooth;
+  }
 
 .small {
     font-size: small;
 
+}
+
+.white {
+    color: aliceblue;
 }
