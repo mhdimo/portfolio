@@ -23,7 +23,13 @@
   scroll-behavior: smooth;
 }
 
+
 body {
-    background-color: #101214;
+    background-color: #17171f;
     color: #7A7C80;
+}
+
+.small {
+    font-size: small;
+
 }
