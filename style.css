@@ -5,6 +5,7 @@ body {
    scroll-behavior: smooth;
 }
 
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -14,6 +15,7 @@ body {
     width: auto\9; /* ie8 */
   }
   
+
   .photo {
   border-radius: 50%;
   max-width: 60%;
@@ -27,6 +29,7 @@ body {
     font-size: small;
 
 }
+
 
 .white {
     color: aliceblue;
