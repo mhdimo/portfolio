@@ -14,7 +14,13 @@
   margin-right: auto;
   width: 70%;
   }
-
+  
+.typebody {
+   background-color: #17171f;
+   color: #7A7C80;
+   font-family: 'Open Sans';font-size: 22px;
+   scroll-behavior: smooth;
+  }
 .small {
     font-size: small;
 
