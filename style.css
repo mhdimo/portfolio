@@ -1,4 +1,12 @@
-  .grid-container {
+body {
+   background-color: #17171f;
+   color: #7A7C80;
+   font-family: 'Open Sans';font-size: 22px;
+   scroll-behavior: smooth;
+}
+
+
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -7,6 +15,7 @@
     width: auto\9; /* ie8 */
   }
   
+
   .photo {
   border-radius: 50%;
   max-width: 60%;
@@ -16,18 +25,11 @@
   }
   
 
-
-  body {
-    background-color: #17171f;
-    color: #7A7C80;
-    font-family: 'Open Sans';font-size: 22px;
-    scroll-behavior: smooth;
-  }
-
 .small {
     font-size: small;
 
 }
+
 
 .white {
     color: aliceblue;
