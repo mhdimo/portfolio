@@ -1,4 +1,4 @@
-body {
+.main {
    background-color: #17171f;
    color: #7A7C80;
    font-family: 'Open Sans';font-size: 22px;
@@ -13,16 +13,16 @@ body {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-  }
+}
   
 
-  .photo {
+.photo {
   border-radius: 50%;
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  }
+}
   
 
 .small {
@@ -34,3 +34,19 @@ body {
 .white {
     color: aliceblue;
 }
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
