@@ -1,8 +1,9 @@
 body {
    background-color: #17171f;
    color: #7A7C80;
-   font-family: sans-serif;
-   font-size: 22px;
+   font-family: 'Open sans';
+   font-style:normal;
+   font-size: 21px;
    scroll-behavior: smooth;
 }
 
