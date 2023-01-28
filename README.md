@@ -1,2 +1,2 @@
 # portfolio
-Hello there! this is my new portfolio that i will *hopefully* update pretty much often, feel free to use it as a template :S
+feel free to use it as template (of course you should delete all the info :D)
