@@ -7,6 +7,13 @@
    scroll-behavior: smooth;
 }
 
+.vertical-horizontal{
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .grid-container {
     display: grid;
@@ -19,7 +26,7 @@
   
 
 .photo {
-  border-radius: 50%;
+  border-radius: 0%;
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
